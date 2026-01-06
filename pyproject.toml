@@ -1,0 +1,21 @@
+[project]
+name = "supermarkets"
+version = "0.1.0"
+description = "SuperMarkets analytics and data-processing project"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+authors = [
+  { name = "Your Name", email = "you@example.com" },
+]
+license = { text = "MIT" }
+
+[project.urls]
+"Documentation" = "./docs"
+"Repository" = ""
+
+# No dependencies yet; keep the project minimal. Dependencies will be managed with uv.
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
