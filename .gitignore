@@ -8,6 +8,12 @@ __pycache__/
 # Virtual environments
 .venv/
 venv/
+.uv/          # uv virtual environment directory
+.venv*/
+
+# uv dependency lock and cache
+uv.lock
+.uvenv/
 
 # Environment variables / secrets
 .env
@@ -20,3 +26,24 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Ruff cache
+.ruff_cache/
+
+# Docker
+.envrc
+docker-compose.override.yml
+
+# IDEs
+.vscode/
+
+# Local python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Mypy
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
